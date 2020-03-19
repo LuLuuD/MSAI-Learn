@@ -21,8 +21,11 @@ Action2：求和
     求2+4+6+8+...+100的求和，用Python该如何写？
 """
 ## Answer2：
+def toSum(start,end):
+    import numpy as np
+    return np.array(range(start,end+2,2)).sum()
 
-# (待补)
+toSum(2, 100)
 
 
 
