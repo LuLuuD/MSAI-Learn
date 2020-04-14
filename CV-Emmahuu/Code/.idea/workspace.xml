@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python basic practice/.idea/Python basic practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python basic practice/action5_0413" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python basic practice/action6_0414.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python basic practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python basic practice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python basic practice/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python basic practice/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python basic practice/action6_0414.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="186">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -152,8 +144,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Python basic practice/action6_0414.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="186">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
