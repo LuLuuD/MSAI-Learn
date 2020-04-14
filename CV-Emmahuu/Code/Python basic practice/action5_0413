@@ -1,0 +1,44 @@
+# from functools import reduce
+
+def persistence(n:int, count = 0):
+	while n//10:
+		result = 1
+		for i in range(len(str(n))):
+			result *= int(str(n)[i])
+		count += 1
+		n = result
+	print(count)
+
+
+def persistence2(n:int): #参考Nash
+	if n < 10:
+		return 0
+	result = 1
+	while n//10:
+		result *= n%10
+		n = n//10
+	print(1+ persistence2(result))
+
+def persistence3(n:int, count = 0):
+	result = 1
+	while n//10:
+		result *= reduce(lambda x,y:x*y, [i for i in str(n)])
+		count += 1
+	print(count)
+
+
+
+persistence(39)
+persistence(999)
+persistence(4)
+persistence(25)
+
+# persistence2(39)
+# persistence2(999)
+# persistence2(4)
+# persistence2(25)
+# #
+# persistence3(39)
+# persistence3(999)
+# persistence3(4)
+# persistence3(25)
