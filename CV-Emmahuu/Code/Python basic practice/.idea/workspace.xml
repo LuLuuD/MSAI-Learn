@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bdc8ef5-3de3-4e22-9469-0af26f5c43df" name="Default Changelist" comment="Triboracci Sequence" />
+    <list default="true" id="8bdc8ef5-3de3-4e22-9469-0af26f5c43df" name="Default Changelist" comment="Triboracci Sequence">
+      <change afterPath="$PROJECT_DIR$/question" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../后厂理工-CV-袁志成/AI九步学习法/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question.ipynb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,26 +17,7 @@
     <favorites_list name="Python basic practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/action10_0418.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="7" selection-start-line="7" selection-end-line="37" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action11_0419.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.action10_0418">
+  <component name="RunManager" selected="Python.action11_0419">
     <configuration name="action10_0418" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python basic practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.action10_0418" />
         <item itemvalue="Python.action11_0419" />
+        <item itemvalue="Python.action10_0418" />
         <item itemvalue="Python.action9_0417" />
         <item itemvalue="Python.action7_0415" />
         <item itemvalue="Python.action8_0416" />
@@ -251,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12879789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -259,7 +244,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39235127" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.06798867" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.06798867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -406,17 +391,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action11_0419.py">
+    <entry file="file://$PROJECT_DIR$/action10_0418.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="-94">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action10_0418.py">
+    <entry file="file://$PROJECT_DIR$/action11_0419.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="7" selection-start-line="7" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
