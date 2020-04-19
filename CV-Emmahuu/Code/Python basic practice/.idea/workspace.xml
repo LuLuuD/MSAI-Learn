@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bdc8ef5-3de3-4e22-9469-0af26f5c43df" name="Default Changelist" comment="Triboracci Sequence">
-      <change beforePath="$PROJECT_DIR$/action10_0418.py" beforeDir="false" afterPath="$PROJECT_DIR$/action10_0418.py" afterDir="false" />
-    </list>
+    <list default="true" id="8bdc8ef5-3de3-4e22-9469-0af26f5c43df" name="Default Changelist" comment="Triboracci Sequence" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/action10_0418.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="14">
+              <caret line="7" selection-start-line="7" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -317,7 +315,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/action10_0418.py</url>
           <line>33</line>
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -417,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/action10_0418.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="14">
+          <caret line="7" selection-start-line="7" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>
