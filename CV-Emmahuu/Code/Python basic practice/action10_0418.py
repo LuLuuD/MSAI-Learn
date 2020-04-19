@@ -6,6 +6,9 @@
 
  """
 def sort_by_name(arr):
+	arr.sort(key = transform)
+	return arr
+def transform(num):
 	num_to_19 = ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen',
 	           'Seventeen','Eighteen','Nineteen']
 	num_to_90 = ['Twenty','Thirty','Forty','Fifty','Sixty','Seventy','Eighty','Ninety']
@@ -25,14 +28,12 @@ def sort_by_name(arr):
 			result += double(n)
 		if time > 0: result += unit[2 + time]
 		return result
-	for num in arr:
-		if len(str(num))//3 == 0:
-			new_arr.append(''.join(eng_name(num,'', 0)))
-		else:
-			name_list = [eng_name((num//10**(3*i) % 10**3), '', i) for i in range(len(str(num))//3 -1 , -1, -1)]
-			new_arr.append(''.join(name_list))
-	order = arr.sort(key = new_arr)
-	return order
+	if len(str(num))//3 == 0:
+		new_arr.append(''.join(eng_name(num,'', 0)))
+	else:
+		name_list = [eng_name((num//10**(3*i) % 10**3), '', i) for i in range(len(str(num))//3 -1 , -1, -1)]
+		new_arr.append(''.join(name_list))
+	return new_arr
 print(sort_by_name([8, 8, 9, 9, 10, 10]))
 print(sort_by_name([1, 2, 3, 4]))
 print(sort_by_name([9, 99, 999]))
