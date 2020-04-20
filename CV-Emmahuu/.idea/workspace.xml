@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550a776b-1697-4a62-93be-ed552a85b42e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Code/Homework/.ipynb_checkpoints/Assignment01-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/.ipynb_checkpoints/Assignment01-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Homework/Assignment01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/Assignment01.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Homework/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/homework1.py" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/Homework/homework1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
               <folding>
                 <element signature="e#90#105#0" expanded="true" />
                 <element signature="e#149#188#0" />
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="312" />
     <option name="y" value="83" />
     <option name="width" value="980" />
@@ -155,7 +156,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13538875" />
@@ -183,8 +184,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Code/Homework/homework1.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="8" />
+          <line>42</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -241,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/Homework/homework1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding>
             <element signature="e#90#105#0" expanded="true" />
             <element signature="e#149#188#0" />

@@ -29,6 +29,21 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 	text = f.readlines()[0]
 	pattern = re.compile('(?:rs\":\"([\d\s]+).*?\"n\":\"(.*?)\")|(?:ln\":\"(.*?)\".*?lo\":\"(\d?)\")')
 	# match = re.compile('(?:rs\":\"(\d\s\d+).*\"n\":\"(.*)\")|(()())')
-	pattern = re.compile('(?:rs\":\"([0-9\s]+).*?\"n\":\"(.*?)\")|(?:ln\":\"(.*?)\".*?lo\":\"(.*?)\")')
+	# pattern = re.compile('(?:rs\":\"([0-9\s]+).*?\"n\":\"(.*?)\")|(?:ln\":\"(.*?)\".*?lo\":\"(.*?)\")')
 	lines_list = pattern.findall(str(text))
-	print(lines_list)
+	lines_info = {}
+	
+	# 所有站点信息的dict：key：站点名称；value：站点坐标(x,y)
+	stations_info = {}
+	stations_list = []
+	
+	for i in range(len(lines_list)):
+		# 你可能需要思考的几个问题，获取「地铁线路名称，站点信息list，站名，坐标(x,y)，数据加入站点的信息dict，将数据加入地铁线路dict」
+		if lines_list[i][-1] == '':
+			stations_info[lines_list[i][1]] = tuple(map(int, lines_list[i][0].split(' ')))
+			stations_list.append(lines_list[i][1])
+		else:
+			lines_info[lines_list[i][2] + lines_list[i][3]] = stations_list
+			stations_list = []
+	print(lines_info)
+	
