@@ -47,3 +47,5 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 			stations_list = []
 	print(lines_info)
 	
+	for item in lines_info.items():
+		print(item)
