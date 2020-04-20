@@ -70,7 +70,23 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 	
 	neighbor_info = get_neighbor_info(lines_info)
 	
+	import networkx as nx
+	import matplotlib
+	import matplotlib.pyplot as plt
 	
+	# 如果汉字无法显示，请参照
+	matplotlib.rcParams['font.sans-serif'] = ['SimHei']
+	
+	# matplotlib.rcParams['font.family']='sans-serif'
+	subwayMap = nx.Graph(neighbor_info)
+	fig = plt.figure()
+	nx.draw_networkx_nodes(subwayMap, pos=stations_info)
+	nx.draw_networkx_edges(subwayMap, pos=stations_info)
+	nx.draw_networkx_labels(subwayMap, pos=stations_info)
+	plt.show()
+	
+	
+	# 你可以用递归查找所有路径
 	def get_path_DFS_ALL(lines_info, neighbor_info, from_station, to_station):
 		# 递归算法，本质上是深度优先
 		# 遍历所有路径
@@ -79,19 +95,22 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 		res = get_next_station_DFS_ALL([{from_station}, -1, [from_station]], neighbor_info, to_station)
 		return res[-1]
 	
-	
 	def get_next_station_DFS_ALL(node, neighbor_info, to_station):
 		res = []
-		if node[1] != -1 and len(node[-1])>node[1]:
+		if node[1] != -1 and len(node[-1]) > node[1]:
 			return res
 		if node[-1][-1] == to_station:
 			node[1] = len(node[-1])
 			return [node[-1].copy()]
 		nextStations = neighbor_info[node[-1][-1]]
 		for station in nextStations:
+			if station not in node[0]:
+				node[0].add(station)
+				node[-1].append(station)
+				res.extend(get_next_station_DFS_ALL(node, neighbor_info, to_station))
+				node[0].remove(station)
+				node[-1].pop()
 		return res
 	
-	
 	res = get_path_DFS_ALL(lines_info, neighbor_info, '亦庄文化园', '航站楼')
-	
-	
+	print(res)
