@@ -56,14 +56,15 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 			if str2 not in info.keys():
 				info[str2] = []
 			info[str1].append(str2)
-			info[str1].append(str2)
+			info[str2].append(str1)
+		
 		
 		neighbor_info = {}
 		for item in lines_info.items():
 			for i in range(len(item[1]) - 1):
 				add_neighbor_dict(neighbor_info, item[1][i], item[1][i + 1])
 			if item[0][-1] == '1':
-				add_neighbor_dict(neighbor_info, item[1][-1], item[1][0])
+				add_neighbor_dict(neighbor_info, item[1][0], item[1][-1])
 		return neighbor_info
 	
 	
@@ -87,9 +88,10 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 			node[1] = len(node[-1])
 			return [node[-1].copy()]
 		nextStations = neighbor_info[node[-1][-1]]
+		for station in nextStations:
 		return res
 	
 	
-	res = get_path_DFS_ALL(lines_info, neighbor_info, '大兴机场', '航站楼')
+	res = get_path_DFS_ALL(lines_info, neighbor_info, '亦庄文化园', '航站楼')
 	
 	

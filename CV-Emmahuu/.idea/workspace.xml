@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="550a776b-1697-4a62-93be-ed552a85b42e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Code/Homework/.ipynb_checkpoints/Assignment01-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/.ipynb_checkpoints/Assignment01-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Homework/Assignment01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/Assignment01.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/Homework/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Homework/homework1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/Homework/homework1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="88" column="44" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="44" />
+            <state relative-caret-position="328">
+              <caret line="94" column="64" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="64" />
               <folding>
                 <element signature="e#90#105#0" expanded="true" />
                 <element signature="e#149#188#0" />
@@ -148,6 +146,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13538875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -174,12 +173,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Code/Homework/homework1.py</url>
-          <line>86</line>
+          <line>87</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Code/Homework/homework1.py</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
@@ -237,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/Homework/homework1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="44" />
+        <state relative-caret-position="328">
+          <caret line="94" column="64" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="64" />
           <folding>
             <element signature="e#90#105#0" expanded="true" />
             <element signature="e#149#188#0" />
