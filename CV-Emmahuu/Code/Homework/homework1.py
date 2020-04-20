@@ -45,7 +45,51 @@ with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
 		else:
 			lines_info[lines_list[i][2] + lines_list[i][3]] = stations_list
 			stations_list = []
-	print(lines_info)
+
+	def get_neighbor_info(lines_info):
+		
+		# 把str2加入str1站点的邻接表中
+		def add_neighbor_dict(info, str1, str2):
+			# 请在这里写代码
+			if str1 not in info.keys():
+				info[str1] = []
+			if str2 not in info.keys():
+				info[str2] = []
+			info[str1].append(str2)
+			info[str1].append(str2)
+		
+		neighbor_info = {}
+		for item in lines_info.items():
+			for i in range(len(item[1]) - 1):
+				add_neighbor_dict(neighbor_info, item[1][i], item[1][i + 1])
+			if item[0][-1] == '1':
+				add_neighbor_dict(neighbor_info, item[1][-1], item[1][0])
+		return neighbor_info
 	
-	for item in lines_info.items():
-		print(item)
+	
+	neighbor_info = get_neighbor_info(lines_info)
+	
+	
+	def get_path_DFS_ALL(lines_info, neighbor_info, from_station, to_station):
+		# 递归算法，本质上是深度优先
+		# 遍历所有路径
+		# 这种情况下，站点间的坐标距离难以转化为可靠的启发函数，所以只用简单的BFS算法
+		# 检查输入站点名称
+		res = get_next_station_DFS_ALL([{from_station}, -1, [from_station]], neighbor_info, to_station)
+		return res[-1]
+	
+	
+	def get_next_station_DFS_ALL(node, neighbor_info, to_station):
+		res = []
+		if node[1] != -1 and len(node[-1])>node[1]:
+			return res
+		if node[-1][-1] == to_station:
+			node[1] = len(node[-1])
+			return [node[-1].copy()]
+		nextStations = neighbor_info[node[-1][-1]]
+		return res
+	
+	
+	res = get_path_DFS_ALL(lines_info, neighbor_info, '大兴机场', '航站楼')
+	
+	
