@@ -20,6 +20,18 @@
 # 		splitNum(nums, target, middle)
 # 	return result
 
+def searchInsert0(nums:list, target:int) -> int:
+	left, right = 0, len(nums) - 1
+	while left <= right:
+		pivot = (right - left) // 2
+		if target > nums[pivot]:
+			left = pivot + 1
+		elif target < nums[pivot]:
+			right = pivot - 1
+		else:
+			return pivot
+	return -1
+
 def searchInsert(nums:list, target:int) -> int:
 	if target in nums: return nums.index(target)
 	left, right = 0, len(nums) - 1
@@ -30,9 +42,6 @@ def searchInsert(nums:list, target:int) -> int:
 		else:
 			right = pivot - 1
 	return left
-
-
-
 
 print(searchInsert([1,3,5,6], 5))
 print(searchInsert([1,3,5,6], 2))
