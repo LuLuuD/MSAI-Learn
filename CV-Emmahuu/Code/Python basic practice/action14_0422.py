@@ -23,7 +23,6 @@ def guess(num:int, target):
 			num = int(input('太大了，请重新输入：'))
 		elif num < target:
 			num = int(input('太小了，请重新输入：'))
-		# guess(num, target)
 	pprint('恭喜你，猜中了！共猜了{}次'.format(count))
 
 target = random.randint(1, 100)

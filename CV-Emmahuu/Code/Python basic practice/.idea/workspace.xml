@@ -116,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.action14_0422">
+  <component name="RunManager" selected="Python.action13_0421">
     <configuration name="action10_0418" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python basic practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,8 +224,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.action14_0422" />
         <item itemvalue="Python.action13_0421" />
+        <item itemvalue="Python.action14_0422" />
         <item itemvalue="Python.action10_0418" />
         <item itemvalue="Python.action11_0419" />
         <item itemvalue="Python.action9_0417" />
