@@ -19,10 +19,10 @@ import pandas as pd
 # r = requests.get('http://10.20.28.209:8090/mir/report/MIR/Wafer%20Sort/MetrologySkipReport.jsp?ticket=ST-636659-HDVBeLKv71p2LzGLb1jF')
 # print(r.text)
 
-# with open('subway.json', mode = 'r', encoding='utf-8') as f0:
-# 	text = json.load(f0)
-# 	df = pd.DataFrame(data = text['l'])
-# 	print(text)
+with open('subway.json', mode = 'r', encoding='utf-8') as f0:
+	text = json.load(f0)
+	df = pd.DataFrame(data = text)
+	print(text)
 
 #text[l]中，ln是几号线；st里的rs是坐标，n是站点名
 with open('subwaytext.txt', mode = 'r', encoding='utf-8') as f:
