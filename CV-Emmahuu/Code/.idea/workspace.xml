@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="" />
+    <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Assignment01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Assignment01_s.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Assignment01_s.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment01_s.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Assignment_01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Assignment_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment_01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/homework1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/json.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/json.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/subway.json" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/subway.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/subwaytext.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/subwaytext.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,44 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/homework1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python basic practice/action19_0427.py">
+        <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#91#98#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="18">
-                <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/Assignment01.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -71,14 +51,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Homework/homework1.py" />
         <option value="$PROJECT_DIR$/Python basic practice/action19_0427.py" />
+        <option value="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="2" />
-    <option name="width" value="1918" />
-    <option name="height" value="1028" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1934" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,7 +77,13 @@
             <path>
               <item name="Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Python basic practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="homework_9step" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,7 +92,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../02-dataScience/07-cmpAFMv3.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -176,7 +162,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/homework1.py" />
+      <option name="SCRIPT_NAME" value="D:\code_work\python_work\01-CV\houChang\github\MSAI-Learn\CV-Emmahuu\Code\Homework\homework_9step\homework1\homework1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,10 +193,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="598" y="2" width="1534" height="822" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13870542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,7 +219,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Homework/homework1.py</url>
+          <url>file://$PROJECT_DIR$/Homework/homework_9step/homework1/homework1.py</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -265,27 +251,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/Assignment01.ipynb">
+    <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment01.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/homework1.py">
+    <entry file="file://$PROJECT_DIR$/Python basic practice/action19_0427.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#91#98#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework1/homework1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python basic practice/action19_0427.py">
+    <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#91#98#0" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
