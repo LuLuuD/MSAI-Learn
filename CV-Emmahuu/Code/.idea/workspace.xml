@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Assignment01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Assignment01_s.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Assignment01_s.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment01_s.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Assignment_01.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Assignment_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Assignment_01.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/homework1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/json.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/json.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/subway.json" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/subway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/subwaytext.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework1/subwaytext.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python basic practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +17,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#82#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +88,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code_work\python_work\01-CV\houChang\github\MSAI-Learn\CV-Emmahuu\Code\Homework\homework_9step\homework1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,8 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -277,8 +275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#82#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
