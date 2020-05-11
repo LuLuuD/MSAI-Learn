@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc57f139-df7a-4bee-945f-5fa7bf727d54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/ML.emmx" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/ML.emmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/homework_9step/homework2/homework2_study_2000503.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/homework_9step/homework2/homework2_study_2000503.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#82#100#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,10 +45,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1934" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,12 +69,6 @@
               <item name="Code" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="homework_9step" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -87,7 +77,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Code" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Code" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -193,6 +191,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,11 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/homework_9step/homework2/study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#82#100#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
